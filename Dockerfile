@@ -1,2 +1,2 @@
-FROM apache
-RUN touch /tmp/apache
+FROM java
+RUN touch /tmp/java
