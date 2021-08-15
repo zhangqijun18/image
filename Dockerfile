@@ -1,2 +1,2 @@
-FROM tomcat
-RUN touch /tmp/tomcat
+FROM nginx
+RUN touch /tmp/nginx
