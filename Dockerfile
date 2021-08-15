@@ -1,2 +1,2 @@
-FROM nginx
-RUN touch /tmp/nginx
+FROM apache
+RUN touch /tmp/apache
