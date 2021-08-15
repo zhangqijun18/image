@@ -1,2 +1,2 @@
 FROM tomcat
-RUN touch /tmp/aaa
+RUN touch /tmp/tomcat
