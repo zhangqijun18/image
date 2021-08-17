@@ -1,2 +1,2 @@
-FROM java
-RUN touch /tmp/java
+FROM golang
+RUN touch /tmp/golang
