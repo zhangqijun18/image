@@ -1,1 +1,1 @@
-FROM k8s.gcr.io/sig-storage/csi-attacher:v3.3.0
+FROM k8s.gcr.io/sig-storage/csi-node-driver-registrar:v2.3.0
