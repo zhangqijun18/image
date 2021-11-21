@@ -6,5 +6,5 @@ git push origin release-v$tag
 echo
 echo docker pull zhangqijun/image:$tag
 echo
-echo docker tag zhangqijun/image:$tag `cat Dockerfile | awk '/FROM/{print $2}' | awk -F@ '{print $1}'` 
+echo docker tag zhangqijun/image:$tag `cat Dockerfile | awk '/FROM/{print $2}' ` 
 echo
