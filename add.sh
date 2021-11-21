@@ -4,4 +4,6 @@ tag=`cat Dockerfile  | grep FROM | awk -F/ '{gsub(":","_",$NF);print $NF}'`_`dat
 git tag release-v$tag -m $tag
 git push origin release-v$tag
 echo docker pull zhangqijun/image:$tag
-echo docker tag zhangqijun/image:$tag `cat Docekerfile | awk '/FROM/{print $2}'` 
+echo
+echo docker tag zhangqijun/image:$tag `cat Dockerfile | awk '/FROM/{print $2}'` 
+echo
