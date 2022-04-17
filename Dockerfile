@@ -1,1 +1,1 @@
-FROM calico/node:v3.18.1
+FROM calico/kube-controllers:v3.18.1
