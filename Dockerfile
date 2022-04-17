@@ -1,1 +1,1 @@
-FROM calico/cni:v3.18.1
+FROM calico/pod2daemon-flexvol:v3.18.1
