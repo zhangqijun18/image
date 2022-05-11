@@ -1,1 +1,1 @@
-FROM k8s.gcr.io/ingress-nginx/kube-webhook-certgen:v1.1.1
+FROM rancher/mirrored-flannelcni-flannel-cni-plugin:v1.0.1
